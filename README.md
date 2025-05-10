@@ -1,11 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-write a readme abiut the project
-
 ## Overview
-
 A React-based web application that simulates a student savings group investing in Play-to-Earn blockchain games. The app helps 12 students collectively manage their savings across different investment tiers, track weekly interest, and simulate withdrawals.
 
 ## Features
@@ -59,15 +52,27 @@ npm run dev
 Open your browser to:
 http://localhost:5173
 # Project Structure
+
 src/
+
 ├── components/
+
 │   ├── StudentRegistration.jsx
+
 │   ├── SavingsDashboard.jsx
+
 │   ├── MemberList.jsx
+
 │   ├── WithdrawalForm.jsx
+
 │   └── TierInfoCard.jsx
+
 ├── styles/
+
 │   ├── App.css
+
 │   └── components.css
+
 ├── App.jsx
+
 └── main.jsx
