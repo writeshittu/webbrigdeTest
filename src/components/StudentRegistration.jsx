@@ -57,6 +57,24 @@ const StudentRegistration = ({ addMember, availableSlots }) => {
   return (
     <div className="registration-container">
       <h2>Student Registration</h2>
+
+        <div className="tier-info-container" >
+        <TierInfoCard 
+          tier="Tier 1" 
+          amount="10,000" 
+          interest="5%" 
+        />
+        <TierInfoCard 
+          tier="Tier 2" 
+          amount="20,000" 
+          interest="10%" 
+        />
+        <TierInfoCard 
+          tier="Tier 3" 
+          amount="30,000" 
+          interest="20%" 
+        />
+      </div>
       {availableSlots > 0 ? (
         <>
           <form onSubmit={handleSubmit}>
@@ -112,23 +130,7 @@ const StudentRegistration = ({ addMember, availableSlots }) => {
         <p className="info">The savings group is currently full (12/12 members).</p>
       )}
       
-      <div className="tier-info-container">
-        <TierInfoCard 
-          tier="Tier 1" 
-          amount="10,000" 
-          interest="5%" 
-        />
-        <TierInfoCard 
-          tier="Tier 2" 
-          amount="20,000" 
-          interest="10%" 
-        />
-        <TierInfoCard 
-          tier="Tier 3" 
-          amount="30,000" 
-          interest="20%" 
-        />
-      </div>
+    
     </div>
   );
 };
