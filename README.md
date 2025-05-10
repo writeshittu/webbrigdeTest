@@ -42,15 +42,25 @@ Installation
     bash
 
 git clone https://github.com/writeshittu/webbrigdeTest.git
+
 cd webbrigdeTest
+
 Install dependencies:
+
 bash
+
 npm install
+
 Start the development server:
+
 bash
+
 npm run dev
+
 Open your browser to:
+
 http://localhost:5173
+
 # Project Structure
 
 src/
