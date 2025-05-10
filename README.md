@@ -2,11 +2,70 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+write a readme abiut the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+A React-based web application that simulates a student savings group investing in Play-to-Earn blockchain games. The app helps 12 students collectively manage their savings across different investment tiers, track weekly interest, and simulate withdrawals.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+    Student Registration: Add members with name and tier selection
+
+    Tier System: Three investment tiers with different interest rates
+
+        Tier 1: ₦10,000 (5% weekly interest)
+
+        Tier 2: ₦20,000 (10% weekly interest)
+
+        Tier 3: ₦30,000 (20% weekly interest)
+
+    Savings Dashboard: View total savings and individual contributions
+
+    Game Earnings: Simulates 20% return on total investment
+
+    Withdrawal System: Remove members and free up slots
+
+    Weekly Progression: Advance time to calculate new interest
+## Live Demo
+  View Demo (Add your deployment link here)
+  Screenshots
+  Registration Screen
+  Dashboard Screen
+## Technologies Used
+    React 18
+    Vite
+    CSS3
+    JavaScript ES6+
+
+## Getting Started
+Prerequisites
+    Node.js (v16 or higher)
+    npm or yarn
+Installation
+    Clone the repository:
+    bash
+
+git clone https://github.com/writeshittu/webbrigdeTest.git
+cd webbrigdeTest
+Install dependencies:
+bash
+npm install
+Start the development server:
+bash
+npm run dev
+Open your browser to:
+http://localhost:5173
+# Project Structure
+src/
+├── components/
+│   ├── StudentRegistration.jsx
+│   ├── SavingsDashboard.jsx
+│   ├── MemberList.jsx
+│   ├── WithdrawalForm.jsx
+│   └── TierInfoCard.jsx
+├── styles/
+│   ├── App.css
+│   └── components.css
+├── App.jsx
+└── main.jsx
