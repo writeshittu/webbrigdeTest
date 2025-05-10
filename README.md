@@ -28,7 +28,7 @@ A React-based web application that simulates a student savings group investing i
 
     Weekly Progression: Advance time to calculate new interest
 ## Live Demo
-  View Demo (Add your deployment link here)
+  View Demo ([https://webbrigde-test.vercel.app/]) Saving Group
   Screenshots
   Registration Screen
   Dashboard Screen
